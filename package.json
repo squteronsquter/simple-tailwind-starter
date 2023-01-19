@@ -1,0 +1,24 @@
+{
+  "name": "simple-tailwind-starter",
+  "version": "1.0.0",
+  "description": "Initialize npm project & install Tailwind CSS ``` npm init -y npm install -D tailwindcss npx tailwindcss init ```",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "npx tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/squteronsquter/simple-tailwind-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/squteronsquter/simple-tailwind-starter/issues"
+  },
+  "homepage": "https://github.com/squteronsquter/simple-tailwind-starter#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
